@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+}
+
+h1,h2{
+    font-family: Roboto Slab;
+}
+
+/* .container{
+    margin-inline: 100px;
+} */
+img{
+    width: 100%;
+}
+.logo{
+    width: 112px;
+    height: 60px;
+    margin-bottom: 97px;
+    margin-top:22px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding-right: 1.736vw /* 25px; */
+}
+li:hover{
+    position: relative;
+    bottom:10px;
+    left: 10px;
+    color: rebeccapurple;
+    font-weight: 500;
+}
+
+li img{
+    width: 22px;
+    height: 21px;
+    margin-right: 3px;
+}
+
+.introduction-mainpart{
+    display: flex;
+    justify-content: space-between;
+    margin-top:29px;
+}
+.introduction-mainpart-text{
+    max-width: 43.61vw /* 628px; */;
+}
+.introduction-mainpart-text p {
+    max-width: 28.75vw /*414px*/;
+    font-size: 1.38vw; /*20px;*/
+    font-weight: 400;
+    line-height: 150%;
+}
+.introduction-mainpart-text h1{
+    font-size: 5.55vw;/* 80px; */
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 101.385%;
+}
+.introduction-mainpart-text h1:hover{
+    color: rebeccapurple;
+}
+.introduction-image{
+    max-width: 21.1vw;/*304px;*/
+    height: 356px;
+    margin-right:128px;
+}
+
+.introduction-card-parent{
+    margin-right: 5.55vw;/*80px;*/
+}
+
+.introduction-card{
+    max-width: 33.55vw; /*483.635px;*/
+    min-height: 200px;
+    border-radius: 5px;
+    background: #1E4681;
+    padding: 19px 1.8vw/*26px*/;
+    margin:auto;
+    margin-top:67px;
+}
+.introduction-card-name{
+    color: #FFF;
+    text-align: right;
+    font-size: 1.38vw; /*20px;*/
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 5px;
+}
+.introduction-card-text{
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 1.73vw; /*25px;*/
+    font-weight: 400;
+    line-height: 130%;
+}
+.introduction-image{
+    width: 21vw; /*304px;*/
+}
+
+
+.information-course{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top:173px;
+}
+.information-course-image{
+    max-width:25.5vw; /*367px;*/
+}
+.information-course-text h2{
+    font-family: Roboto Slab;
+    font-size: 3.8vw; /*55px;*/
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 32px;
+}
+.information-course-text h2:hover{
+    color: rebeccapurple;
+}
+.information-course-text {
+    width: 46vw; /*662px;*/
+    font-size: 24px;
+    line-height: 150%;
+}
+.information-list-image{
+    max-width: 18vw; /*261px;*/
+}
+.information-list{
+    display: flex;
+    margin-top:94px;
+}
+.information-list-text{
+    display: flex;
+    gap: 5.55vw;/*80px;*/
+    margin: auto;
+}
+.information-list-textchild{
+    max-width: 10.4vw;/*150px;*/
+    font-size: 1.25vw;/*18px;*/
+    line-height: 130%;
+}
+.information-list-textchild h3{
+    font-size: 1.74vw;/*25px;*/
+    font-weight: 700;
+    margin-bottom:12px;
+}
+.information-list-textchild h3:hover{
+    position: relative;
+    bottom:10px;
+    left: 10px;
+    color: rebeccapurple;
+    font-weight: 500;
+}
+
+
+
+/* ********************************  Media Quary   Tablet *********************************** */
+
+
+@media (max-width: 1279px) {
+    /* .container{
+        margin-inline: 8.4vw;70px; */
+    /* } */
+    .logo{
+        width: 65px;
+        height: 38px;
+        margin-bottom: 58px;
+    }
+    li{
+        padding-right: 1.68vw;/*14px;*/
+        font-size: 1.44vw;/*12px;*/
+    }
+    li:hover{
+        position: relative;
+        bottom:10px;
+        left: 10px;
+        color: rebeccapurple;
+        font-weight: 500;
+    }
+    
+    li img{
+        width: 13px;
+        height: 13px;
+        margin-right: 3px;
+    }
+    
+    .introduction-mainpart-text p {
+        max-width: 31.65vw;/*264px;*/
+        font-size: 1.44vw;/*12px;*/
+    }
+    .introduction-mainpart-text h1{
+        max-width: 43.645vw;/*364px;*/
+        font-size: 5.5vw;/*46px;*/
+    }
+    .introduction-image{
+        max-width: 176.067px;
+        height: 206.183px;
+        margin-right: 5.156vw;/*43px;*/
+    }
+    
+    .introduction-card{
+        max-width: 280.105px;
+        min-height: 115.833px;
+        border-radius: 3px;
+        padding: 11px 15px;
+        margin-top:40px;
+    }
+    .introduction-card-name{
+        font-size: 1.44vw;/*12px;*/
+    }
+    .introduction-card-text{
+        font-size: 1.68vw;/*14px;*/
+    }
+
+    .information-course{
+        margin-top:100.41px;
+    }
+    .information-course-image{
+        max-width: 21.82vw;/*182px;*/
+    }
+    .information-course-text h2{
+        font-size: 3.84vw;/*32px;*/
+    }
+    .information-course-text{
+        max-width: 46vw;/*383.4px;*/
+        font-size:1.68vw;/*14px;*/
+    }
+    .information-list-image{
+        max-width: 134.367px;
+    }
+    .information-list{
+        display: flex;
+        margin-top:36px
+    }
+    .information-list-text{
+        gap: 6.6vw;/*55px;*/
+    }
+    .information-list-textchild{
+        font-size: 1.32vw;/*11px;*/
+        max-width: 10.43vw;/*87px;*/
+    }
+    .information-list-textchild h3{
+        font-size: 1.8vw;/*15px;*/
+        margin-bottom:4px;
+    }
+  }
+/* ********************************  Media Quary   Mobile  *********************************** */
+
+
+@media (max-width: 991px) {
+    /* .container{
+        margin-inline: 9.33vw;/*35px;*/
+    /* } */ 
+    .logo{
+        width: 52.189px;
+        height: 30.754px;
+        margin-bottom: 40px;
+        margin-top:22px;
+    }
+    li{
+        padding-right: 2.9vw;/*11px;*/
+        font-size:10px;
+    }
+    
+    li img{
+        width: 10.251px;
+        height: 9.785px;
+    }
+    .introduction-mainpart{
+        flex-direction: column;
+    }
+    .introduction-mainpart-text p {
+        max-width: 56.6vw;/*212.4px;*/
+        font-size: 2.667vw;/*10px;*/
+    }
+    .introduction-mainpart-text h1{
+        max-width: 78vw;/*292.63px;*/
+        font-size: 9.9vw; /*37px*/
+
+    }
+    .introduction-image{
+        max-width: 37.86vw;/*142px;*/
+        margin-left: auto;
+    }
+    
+    .introduction-card{
+        max-width: 214px;
+        min-height: 93.194px;
+        padding: 9px 13px;
+        margin-top:0px;
+        margin-inline:0;
+    }
+    .introduction-card-name{
+        font-size: 10px;
+    }
+    .introduction-card-text{
+        font-size: 11px;
+    }
+    
+    .information-course{
+        /* margin-top:100.41px; */
+        flex-direction: column;
+        align-items:start;
+    }
+    .information-course-image{
+        min-width: 48vw;/*180px;*/
+    }
+    .information-course-text h2{
+        font-size: 7vw;/*26px;*/
+    }
+    .information-course-text{
+        font-size: 3.2vw;/*12px;*/
+    }
+    .information-list-image{
+        display: none;
+    }
+    .information-list{
+        margin-top:45px
+    }
+    .information-list-text{
+        width: 270px;
+        flex-wrap: wrap;
+        margin-inline: 0;
+    }
+    .information-list-textchild{
+        font-size: 2.93vw;/*11px;*/
+        max-width: 23.2vw;/*86.9px;*/
+    }
+    .information-list-textchild h3{
+        font-size: 4vw;/*15px;*/
+        margin-bottom:4px;
+    }
+  }
